@@ -1,0 +1,30 @@
+/*
+Selector {
+    Property: value;
+}*/
+
+h2 {
+    color: blue;
+}
+
+p {
+    font-size: 20px;
+}
+
+span {
+/*    em means relative to host*/
+/*    rem means relative to root element*/
+    font-size: 5em;
+}
+
+.boxmodel {
+    border: 5px solid red;
+    display: inline-block;
+/*    top right bottom left*/
+    padding: 5px 20px 5px 20px;
+/*    space outside*/
+/*    top/bottom left/right*/
+    margin: 0px 20px;
+    width: 33px;
+    height: 55px;
+}

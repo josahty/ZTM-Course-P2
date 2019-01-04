@@ -1,0 +1,70 @@
+/*
+Selector {
+    Property: value;
+}*/
+
+* {
+    text-align: right;
+}
+
+
+body {
+    background-image: url(../images/pulsar.jpg);
+    background-size: cover;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    color: lightblue;
+}
+
+/*this block overrides text alignment from * because of specificity.    */
+/*h2 p --- all p inside h2*/
+/*h2 > p --- all p with parent of h2 NOT DIV OR ANYTHING ELSE*/
+/*h2 + p --- any p directly after h2 element*/
+/*h2 + p: hover --- changes style*/
+/*!important overrides all non-important styles*/
+h2 {
+    color: lightblue;
+    text-align: center;
+    font-family: 'Oxygen', sans-serif;
+/*
+    border: 5px solid rgba(255, 176, 170, 0.5);
+    cursor: pointer;
+*/
+}
+img {
+    float: right;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    color: lightblue;
+}
+
+.webtext:last-child {
+    border: 5px dashed green;
+}
+
+.active {
+    color: red;
+}
+
+#div1 {
+    background: rgba(0, 0, 255, 0.2)
+}
+
+#div2 {
+    background: rgba(255, 0, 0, 0.2)
+}
+
+p {
+    text-align: center;
+    line-height: 20px;
+    font-weight: 200;
+    color: green;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 200%;
+}
